@@ -119,25 +119,52 @@ main {
 }
 
 /*Sobre Nostros*/
-.tienda {
-    margin: 30px;
-    min-width: 500px;
-    width: 70%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
+.MarcasText{
+position: relative;
+width: 30vw;
+margin-top: -66px;
 }
-
 .marca {
     width: 20%;
-    height: 50%;
+    height: 38%;
     border-radius: 5px;
     align-items: center;
+    transition: all 0.5s ease-out;
 }
-
+.marca:hover {
+    transform: scale(1.25);
+}
+.TextoTienda{
+    margin-left: 30px;
+background:rgba(255, 0, 0, 0.507);
+color: whitesmoke;
+text-shadow: -2px 2px 8px rgb(7, 12, 14);
+border-radius: 5px;
+width: 300px;
+}
+.datos{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 539px;
+    margin-left: -75px;
+}
+.dato1{
+    background:rgba(255, 0, 0, 0.507);
+    color: whitesmoke;
+    text-shadow: -2px 2px 8px rgb(7, 12, 14);
+    border-radius: 5px;
+}
+.dato2{
+    width: 190px;
+    margin-top: 6px;
+    background:rgba(255, 0, 0, 0.507);
+    color: whitesmoke;
+    text-shadow: -2px 2px 8px rgb(7, 12, 14);
+    border-radius: 5px;
+}
 /*Pagina de Juegos*/
 .TextJuegos {
     font-size: 40px;
